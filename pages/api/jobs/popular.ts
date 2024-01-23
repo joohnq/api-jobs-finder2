@@ -7,7 +7,8 @@ const jobsData = [
     salary: "$80,000 - $100,000/ano",
     location: "San Francisco, CA",
     company: {
-      logoUrl: "[Link para o logo]",
+      logoUrl:
+        "https://api-jobs-finder2.vercel.app/imagens/icon-dropbox-96.png",
       name: "Dropbox",
       about: "Líder em armazenamento em nuvem.",
       reviews: "4.5/5 estrelas",
@@ -21,7 +22,8 @@ const jobsData = [
     salary: "$70,000 - $90,000/ano",
     location: "Menlo Park, CA",
     company: {
-      logoUrl: "[Link para o logo]",
+      logoUrl:
+        "https://api-jobs-finder2.vercel.app/imagens/icon-facebook-96.png",
       name: "Facebook",
       about: "Maior plataforma de mídia social do mundo.",
       reviews: "4.7/5 estrelas",
@@ -35,8 +37,9 @@ const jobsData = [
     salary: "$90,000 - $110,000/ano",
     location: "Mountain View, CA",
     company: {
-      logoUrl: "[Link para o logo]",
-      name: "Google",
+      logoUrl:
+        "https://api-jobs-finder2.vercel.app/imagens/icon-instagram-96.png",
+      name: "Instagram",
       about: "Empresa de tecnologia líder em busca e serviços online.",
       reviews: "4.8/5 estrelas",
     },
@@ -48,7 +51,8 @@ const jobsData = [
     salary: "$75,000 - $95,000/ano",
     location: "Palo Alto, CA",
     company: {
-      logoUrl: "[Link para o logo]",
+      logoUrl:
+        "https://api-jobs-finder2.vercel.app/imagens/icon-evernote-96.png",
       name: "Evernote",
       about: "Aplicativo de organização de notas e tarefas.",
       reviews: "4.6/5 estrelas",
@@ -62,7 +66,8 @@ const jobsData = [
     salary: "$85,000 - $105,000/ano",
     location: "Sunnyvale, CA",
     company: {
-      logoUrl: "[Link para o logo]",
+      logoUrl:
+        "https://api-jobs-finder2.vercel.app/imagens/icon-linkedin-96.png",
       name: "LinkedIn",
       about: "Rede profissional e plataforma de busca de empregos.",
       reviews: "4.7/5 estrelas",
