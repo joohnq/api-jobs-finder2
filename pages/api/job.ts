@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import allJobs from "./jobs";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-    const id = "1";
+    const id = req.query.id as string;
   
     const jobs = allJobs;
   
