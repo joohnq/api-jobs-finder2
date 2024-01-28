@@ -149,3 +149,5 @@ const allJobs = [
       type: "Full Time",
     },
   ];
+
+  export default allJobs;
