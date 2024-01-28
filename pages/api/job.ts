@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-    const { id } = req.query;
+    const id = req.query.id as string;
   
     const jobs = allJobs;
   
