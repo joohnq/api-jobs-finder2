@@ -3,7 +3,7 @@ import allJobs from "../jobs";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     const jobs = allJobs;
-    const job = jobs.find((job) => job.category === "recent-posted");
+    const job = jobs.map((job) => job.category === "recent-posted");
     if (!job) {
       return res.status(404).json({ error: 'Não há nenhum vaga recentemente postada' });
     }
