@@ -1,7 +1,7 @@
 const allJobs = [
   {
     id: "1",
-    title: "iOS Developer - Apple",
+    title: "iOS Developer",
     description: "Develop innovative applications for Apple's iOS platform.",
     salary: {
       entry: "90,000",
@@ -11,7 +11,7 @@ const allJobs = [
     },
     location: "Cupertino, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/apple.png",
       name: "Apple",
       about: "Inovação em tecnologia e design.",
       reviews: "4.9/5 estrelas",
@@ -22,7 +22,7 @@ const allJobs = [
   },
   {
     id: "2",
-    title: "Social Media Manager - Instagram",
+    title: "Social Media Manager",
     description: "Manage and execute social media strategies for Instagram.",
     salary: {
       entry: "75,000",
@@ -32,7 +32,7 @@ const allJobs = [
     },
     location: "Menlo Park, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/instagram.png",
       name: "Instagram",
       about: "Compartilhamento visual e redes sociais.",
       reviews: "4.7/5 estrelas",
@@ -43,7 +43,7 @@ const allJobs = [
   },
   {
     id: "3",
-    title: "UX/UI Designer - Behance",
+    title: "UX/UI Designer",
     description:
       "Crie experiências de usuário excepcionais para a plataforma Behance.",
     salary: {
@@ -54,7 +54,7 @@ const allJobs = [
     },
     location: "San Francisco, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/behance.png",
       name: "Behance",
       about: "Plataforma de portfólios criativos.",
       reviews: "4.5/5 estrelas",
@@ -65,7 +65,7 @@ const allJobs = [
   },
   {
     id: "4",
-    title: "Community Manager - Discord",
+    title: "Community Manager",
     description: "Gerencie e promova a comunidade Discord.",
     salary: {
       entry: "70,000",
@@ -75,7 +75,7 @@ const allJobs = [
     },
     location: "San Francisco, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/discord.png",
       name: "Discord",
       about: "Plataforma de comunicação para gamers.",
       reviews: "4.6/5 estrelas",
@@ -86,7 +86,7 @@ const allJobs = [
   },
   {
     id: "5",
-    title: "Product Manager - Dropbox",
+    title: "Product Manager",
     description:
       "Gerencie o ciclo de vida de produtos para a plataforma Dropbox.",
     salary: {
@@ -97,7 +97,7 @@ const allJobs = [
     },
     location: "San Francisco, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/dropbox.png",
       name: "Dropbox",
       about: "Soluções de armazenamento em nuvem.",
       reviews: "4.7/5 estrelas",
@@ -108,7 +108,7 @@ const allJobs = [
   },
   {
     id: "6",
-    title: "AI Researcher - Google",
+    title: "AI Researcher",
     description:
       "Conduza pesquisas inovadoras em inteligência artificial para o Google.",
     salary: {
@@ -119,7 +119,7 @@ const allJobs = [
     },
     location: "Mountain View, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/google.png",
       name: "Google",
       about: "Empresa líder em tecnologia de busca e inovação.",
       reviews: "4.9/5 estrelas",
@@ -130,7 +130,7 @@ const allJobs = [
   },
   {
     id: "7",
-    title: "Software Engineer - Github",
+    title: "Software Engineer",
     description: "Desenvolva e aprimore a plataforma Github.",
     salary: {
       entry: "85,000",
@@ -140,7 +140,7 @@ const allJobs = [
     },
     location: "San Francisco, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/github.png",
       name: "Github",
       about: "Plataforma de desenvolvimento colaborativo.",
       reviews: "4.8/5 estrelas",
@@ -151,7 +151,7 @@ const allJobs = [
   },
   {
     id: "8",
-    title: "AR/VR Developer - Facebook",
+    title: "AR/VR Developer",
     description:
       "Trabalhe na vanguarda da tecnologia de realidade aumentada/virtual para o Facebook.",
     salary: {
@@ -162,7 +162,7 @@ const allJobs = [
     },
     location: "Menlo Park, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/facebook.png",
       name: "Facebook",
       about: "Rede social líder global.",
       reviews: "4.6/5 estrelas",
@@ -173,7 +173,7 @@ const allJobs = [
   },
   {
     id: "9",
-    title: "Machine Learning Engineer - Netflix",
+    title: "Machine Learning Engineer",
     description:
       "Aplique algoritmos de aprendizado de máquina para melhorar a experiência do usuário na Netflix.",
     salary: {
@@ -184,7 +184,7 @@ const allJobs = [
     },
     location: "Los Gatos, CA",
     company: {
-      logoUrl: "URL_DA_LOGO",
+      logoUrl: "https://api-jobs-finder2.vercel.app/imagens/netflix.png",
       name: "Netflix",
       about: "Plataforma de streaming líder.",
       reviews: "4.8/5 estrelas",
