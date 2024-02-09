@@ -34,7 +34,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 
   if (filteredJobs.length === 0) {
-    return res.status(404).json({ error: "Nenhum emprego encontrado" });
+    return res.status(404).json([]);
   }
 
   res.status(200).json(filteredJobs);
