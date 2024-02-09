@@ -34,7 +34,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   }
 
   if (filteredJobs.length === 0) {
-    return res.status(404).json([]);
+    return res.status(404).json(null);
   }
 
   res.status(200).json(filteredJobs);
