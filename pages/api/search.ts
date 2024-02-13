@@ -6,6 +6,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const category = req.query.category as string;
   const location = req.query.location as string;
   const company = req.query.company as string;
+  const salaryEntry = req.query.salaryEntry as string;
+  const salaryEnd = req.query.salaryEnd as string;
 
   let filteredJobs = allJobs;
 
@@ -30,6 +32,19 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (company) {
     filteredJobs = filteredJobs.filter(
       (job) => job.company.name.toLowerCase() === company.toLowerCase()
+    );
+  }
+
+  if (salaryEntry) {
+    filteredJobs = filteredJobs.filter(
+      (job) =>
+        parseInt(job.salary.entry.replace(",", "")) >= parseInt(salaryEntry)
+    );
+  }
+
+  if (salaryEnd) {
+    filteredJobs = filteredJobs.filter(
+      (job) => parseInt(job.salary.end.replace(",", "")) <= parseInt(salaryEnd)
     );
   }
 
