@@ -8,6 +8,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const company = req.query.company as string;
   const salaryEntry = req.query.salaryEntry as string;
   const salaryEnd = req.query.salaryEnd as string;
+  const type = req.query.type as string;
 
   let filteredJobs = allJobs;
 
@@ -46,6 +47,10 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     filteredJobs = filteredJobs.filter(
       (job) => parseInt(job.salary.end.replace(",", "")) <= parseInt(salaryEnd)
     );
+  }
+
+  if (type) {
+    filteredJobs = filteredJobs.filter((job) => job.type === type);
   }
 
   if (filteredJobs.length === 0) {
