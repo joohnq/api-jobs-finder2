@@ -5,7 +5,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   const title = req.query.title as string;
   const category = req.query.category as string;
   const location = req.query.location as string;
-  const company = req.query.location as string;
+  const company = req.query.company as string;
 
   let filteredJobs = allJobs;
 
